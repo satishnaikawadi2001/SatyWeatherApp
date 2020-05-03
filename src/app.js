@@ -35,7 +35,8 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
 	res.render('help', {
-		helpText : 'This is some helpful text.',
+		helpText : `Here it is a small web-app which will give you information about weather. You have to enter your city name in the input
+			 box and it will provide you the basic weather information regarding that area.`,
 		title    : 'Help',
 		name     : 'Satish Naikawadi'
 	});

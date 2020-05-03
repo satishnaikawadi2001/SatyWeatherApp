@@ -1,55 +1,83 @@
 body {
-    color: #333333;
-    font-family: arial;
-    max-width: 650px;
-    margin: 0 auto;
-    padding: 0 16px;
+	color: #333333;
+	font-family: arial;
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 0 16px;
 
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 .main-content {
-    flex-grow: 1;
+	flex-grow: 1;
 }
 
 footer {
-    color: #888888;
-    border-top: 1px solid #eeeeee;
-    margin-top: 16px;
-    padding: 16px 0;
+	color: #888888;
+	border-top: 1px solid #eeeeee;
+	margin-top: 16px;
+	padding: 16px 0;
 }
 
 header {
-    margin-top: 16px;
-    margin-bottom: 48px;
+	margin-top: 16px;
+	margin-bottom: 48px;
 }
 
 h1 {
-    font-size: 64px;
-    margin-bottom: 16px;
+	font-size: 64px;
+	margin-bottom: 16px;
 }
 
 header a {
-    color: #888888;
-    margin-right: 16px;
-    text-decoration: none;
+	color: #888888;
+	margin-right: 16px;
+	text-decoration: none;
 }
 
 .portrait {
-    width: 250px;
+	width: 250px;
 }
 
 input {
-    border: 1px solid #cccccc;
-    padding: 8px;
+	border: 1px solid #cccccc;
+	padding: 8px;
 }
 
 button {
-    cursor: pointer;
-    border: 1px solid #888888;
-    background: #888888;
-    color: white;
-    padding: 8px;
+	cursor: pointer;
+	border: 1px solid #888888;
+	background: #888888;
+	color: white;
+	padding: 8px;
+}
+
+.shad3 {
+	color: #86b300;
+
+	text-shadow: 0 2px 1px #86b300, -1px 3px 1px #99cc00, -2px 5px 1px #ace600, -3px 7px 1px #bfff00,
+		-4px 9px 1px #c6ff1a, -5px 11px 1px #ccff33, -6px 13px 1px #d2ff4d, -7px 15px 1px #d9ff66, -8px 17px 1px #dfff80,
+		-9px 19px 1px #e6ff99, -10px 21px 1px #ecffb3;
+}
+
+.shad4 {
+	color: #006600;
+
+	text-shadow: 0 2px 1px #008000, -1px 3px 1px #009900, -2px 5px 1px #00b300, -3px 7px 1px #00cc00,
+		-4px 9px 1px #00e600, -5px 11px 1px #00ff00, -6px 13px 1px #1aff1a, -7px 15px 1px #33ff33, -8px 17px 1px #4dff4d,
+		-9px 19px 1px #66ff66, -10px 21px 1px #80ff80;
+}
+
+.shad5 {
+	color: #991f00;
+
+	text-shadow: 0 2px 1px #b32400, -1px 3px 1px #cc2900, -2px 5px 1px #e62e00, -3px 7px 1px #ff3300,
+		-4px 9px 1px #ff471a, -5px 11px 1px #ff5c33, -6px 13px 1px #ff704d, -7px 15px 1px #ff8566, -8px 17px 1px #ff9980,
+		-9px 19px 1px #ffad99, -10px 21px 1px #ffc2b3;
+}
+.shad1 {
+	color: red;
+	text-shadow: 2px 2px 6px black;
 }
