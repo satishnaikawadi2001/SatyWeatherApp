@@ -1,0 +1,16 @@
+.navbar-brand{
+
+    font-size: 2em;
+    font-weight: bolder;
+    text-shadow: 4px 4px 8px red;
+}
+ 
+.img{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    min-height: 70vh;
+  }
+
+  
